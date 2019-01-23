@@ -3,7 +3,7 @@
 LOCAL loWSPrueba AS "XML Web Service"
 LOCAL loException, lcErrorMsg, loWSHandler
 
-* Parametros para la conexión al Webservice
+* Parametros para la conexiÃ³n al Webservice
 url_action = "https://staging.ws.timbox.com.mx/cancelacion/action"
 usuario = "AAA010101000"
 contrasena = "h6584D56fVdBbSmmnB"
@@ -13,9 +13,6 @@ rfc_emisor  = "AAA010101AAA"
 rfc_receptor = "IAD121214B34"
 uuid = "69B01A54-6F7E-41F7-931D-0E3A46452BE9"
 total = "1751.60"
-
-file_cer_pem = Filetostr(directorio + "CSD01_AAA010101AAA.cer.pem")
-file_key_pem = Filetostr(directorio + "CSD01_AAA010101AAA.key.pem")
 
 * Construir envelope
 set textmerge to memvar envelope on noshow 
