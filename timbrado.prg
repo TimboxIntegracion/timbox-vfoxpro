@@ -3,7 +3,6 @@
 LOCAL loWSPrueba AS "XML Web Service"
 LOCAL loException, lcErrorMsg, loWSHandler
 directorio = CURDIR()
-directorio = "C:\Users\raul\Desktop\timbox-vfp2\"
 * Paramaetros para la conexion al webservices
 url_action = "https://staging.ws.timbox.com.mx/timbrado_cfdi33/action"
 usuario = "AAA010101000"
